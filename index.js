@@ -1,5 +1,6 @@
 const express = require('express');
 const { resolve } = require('path');
+const dotenv = require('dotenv');
 require("dotenv").config();
 const mongoose = require("mongoose");
 const User = require("./schema.js");
